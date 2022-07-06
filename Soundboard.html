@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <body id = "body" style = "background-color:#ff00ff">
+        <h1 id = "header" style = "background-color:#ffccff;color:#aa00aa;position:absolute;left:50px;padding:10px;width:780px;text-align:center;font-family:verdana;">
+            Soundboard
+        </h1>
+        <style>
+            .btype {
+            background-color:#ffccff;
+            color:#aa00aa;
+            padding:10px;
+            width:152px;
+            text-align:center;
+            position:absolute;
+            font-family:verdana;
+            }
+        </style>
+        <script src = "script.js"></script>
+        <button class = "btype" style = "top:100px;left:50px;" onclick = "sound1.play()">
+            Ambulance (1)
+        </button>
+        <button class = "btype" style = "top:100px;left:212px;"onclick = "sound2.play()">
+            Heartbeat (2)
+        </button>
+        <button class = "btype" style = "top:100px;left:374px;"onclick = "sound3.play()">
+            Beep (3)
+        </button>
+        <button class = "btype" style = "top:100px;left:536px;"onclick = "sound4.play()">
+            Bang (4)
+        </button>
+        <button class = "btype" style = "top:100px;left:698px;"onclick = "sound5.play()">
+            Flatline (5)
+        </button>
+        <button class = "btype" style = "top:150px;left:50px;"onclick = "sound6.play()">
+            Police Siren (6)
+        </button>
+        <button class = "btype" style = "top:150px;left:212px;"onclick = "sound7.play()">
+            Hospital (7)
+        </button>
+        <button class = "btype" style = "top:150px;left:374px;">
+            undefined
+        </button>
+        <button class = "btype" style = "top:150px;left:536px;">
+            undefined
+        </button>
+        <button class = "btype" style = "top:150px;left:698px;">
+            undefined
+        </button>
+        
+        <button class = "btype" style = "top:300px;left:374px;" onclick = "StopAudio()">
+            Stop Audio (Space)
+        </button>
+        <button class = "btype" style = "top:370px;left:374px;" onclick = "eyesHurt()" id = "eyesHurt">
+            Click This if your eyes hurt.
+        </button>
+        <div style = "position:absolute;top:420px;left:50px;">
+            <p style = "color:#ffccff;text-align:center;font-family:verdana;font-size:20px;width:800px;">
+                Welcome to the Soundboard!
+            </p>
+            <p style = "color:#ffccff;text-align:center;font-family:verdana;font-size:20px;width:800px;">
+                To play a sound, press the button with the sound name or the key assigned to it in the brackets.
+            </p>
+            <p style = "color:#ffccff;text-align:center;font-family:verdana;font-size:20px;width:800px;">
+                To stop playing, press the Stop Music button or simply press the space bar.
+            </p>
+            <p style = "color:#ffccff;text-align:center;font-family:verdana;font-size:20px;width:800px;">
+                To exit the program, press the Exit button or press Escape on your keyboard.
+            </p>
+            <p style = "color:#ffccff;text-align:center;font-family:verdana;font-size:20px;width:800px;">
+                Enjoy!
+            </p>
+        </div>
+    </body>
+</html>
